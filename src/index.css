@@ -1,0 +1,43 @@
+/* Reset some default styles of the browser */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f7;
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+button:focus,
+input:focus {
+  outline: none;
+}
+
+/* Global container for the app for centering purposes */
+.App {
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* General utility classes can be added as needed */
+.center-text {
+  text-align: center;
+}
