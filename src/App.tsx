@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import './App.css';
 import './index.css';
 import './styles.css';
 
 
 const OPENAI_API_URL = "https://api.openai.com/v1/engines/text-davinci-003/completions";
-const OPENAI_API_KEY = "OPENAI_API_KEY"; // Remember to replace this with your key
+const OPENAI_API_KEY = " "; // Remember to replace this with your key
 
 const App: React.FC = () => {
   const [title, setTitle] = useState<string>("");
